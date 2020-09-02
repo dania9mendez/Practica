@@ -1,6 +1,6 @@
 base<-read.csv("C:/Users/dania/Desktop/Temperatura_Leche-Bloqueo.csv", header=T)
 base
-str(base)
+
 View(base)
 base$Bloque=as.factor(base$Bloque)
 base$Tratamiento=as.factor(base$Tratamiento)
